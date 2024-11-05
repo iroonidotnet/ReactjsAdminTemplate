@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #696666;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main .sidebarWrapper {
+  height: 100vh;
+}
+
+.main .sidebarWrapper .sidebar {
+  height: 100vh;
+  background: #f1ecec;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button {
+  justify-content: flex-start !important;
+  color: #070606;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  /* 2ta az bala 10 ta az chap/ */
+  padding: 2px 10px;
+  /* border-radius: 0px !important; */
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button svg {
+  font-size: 15px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button .arrow svg {
+  font-size: 12px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button:hover {
+  background: #a09c9c;
+}
